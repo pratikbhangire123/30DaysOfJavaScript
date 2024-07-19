@@ -6,3 +6,5 @@ import "./D2_Operators/ternary.js";
 import "./D3_Control Structures/index.js";
 import "./D4_Loops/index.js";
 import "./D5_Functions/index.js";
+import "./D6_Arrays/index.js";
+import "./D7_Objects/index.js";
