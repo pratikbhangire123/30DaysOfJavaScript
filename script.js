@@ -8,3 +8,4 @@ import "./D4_Loops/index.js";
 import "./D5_Functions/index.js";
 import "./D6_Arrays/index.js";
 import "./D7_Objects/index.js";
+import "./D8_ES6+ Features/index.js";
