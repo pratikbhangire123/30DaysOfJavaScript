@@ -9,3 +9,5 @@ import "./D5_Functions/index.js";
 import "./D6_Arrays/index.js";
 import "./D7_Objects/index.js";
 import "./D8_ES6+ Features/index.js";
+import "./D9_DOM Manipulation/index.js";
+import "./D10_Event Handling/index.js";
