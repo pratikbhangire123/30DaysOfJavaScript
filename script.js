@@ -11,3 +11,5 @@ import "./D7_Objects/index.js";
 import "./D8_ES6+ Features/index.js";
 import "./D9_DOM Manipulation/index.js";
 import "./D10_Event Handling/index.js";
+import "./D11_Promises and Async Await/index.js";
+import "./D12_Error Handling/index.js";
