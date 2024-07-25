@@ -1,0 +1,21 @@
+{
+  "name": "30daysofjavascript",
+  "version": "1.0.0",
+  "description": "This is an 30 days of JavaScript challenge given by Chai aur Code aka Hitesh Chaudhary.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Pratik Bhangire",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

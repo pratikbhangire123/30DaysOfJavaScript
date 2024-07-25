@@ -1,0 +1,25 @@
+// Module Bundling
+
+// Task 8
+
+What is JavaScript Bundler?
+A module bundler provides a method for arranging and merging multiple JavaScript files into a unified single file.
+It is used when the project becomes bigger and/or dealing with libraries with numerous dependencies, 
+so that client or browser doesn't have to fetch numerous files individually.
+
+I have used webpack package bundler to bundle the JavaScript files.
+
+Concepts:
+- Entry - Entry file (.js).
+- Output - Where to store the output (bundled code).
+- Loader - Loaders for different types of inputs. (css-loader for .css files).
+- Mode - Production or Development.
+- Plugins - Different types of plugins. (IgnorePlugin to ignore certain modules).
+
+The process:
+- It first takes one or more entry file (.js) to begine the bundling process.
+- Then, by tracking every line of code, it builts the dependacy tree of all the files, assets, etc.
+  that are required for that entry file to execute. 
+- Then, it traverses that dependancy tree and adds more files, assets, etc. 
+  to the dependancy tree by going into respective modules.
+- It only takes the elements liked functions, objects, etc of the module that are actually being used or imported in the main js file.
