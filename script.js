@@ -16,3 +16,4 @@ import "./D12_Error Handling/index.js";
 import "./D13_Modules/index.js";
 import "./D14_Classes/index.js";
 import "./D15_Closures/index.js";
+import "./D16_Recursion/index.js";
